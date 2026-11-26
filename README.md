@@ -1,10 +1,10 @@
 # BangumiGuessr
 
-**Anime Pilgrimage GeoGuessr in Japan & Worldwide · 动漫圣地巡礼猜地点**
+**Anime Pilgrimage GeoGuessr in Japan, Hong Kong & Worldwide · 动漫圣地巡礼猜地点**
 
-Explore real-life anime pilgrimage spots across Japan and iconic overseas locations in 360° Google Street View, match the floating anime scene reference, and drop your pin on the map — solo or live with friends, no account required.
+Explore real-life anime pilgrimage spots across Japan, Hong Kong, and iconic overseas locations in 360° Google Street View, match the floating anime scene reference, and drop your pin on the map — solo or live with friends, no account required.
 
-### **[▶ Play Now — bangumiguessr.onely1.workers.dev](https://bangumiguessr.onely1.workers.dev)**
+### **[▶ Play Now — bangumiguessr.xyz](https://bangumiguessr.xyz)**
 
 ---
 
@@ -18,12 +18,21 @@ Explore real-life anime pilgrimage spots across Japan and iconic overseas locati
 
 ## What's Inside
 
-- **198 Curated Anime Franchises & 3,127 Spots**: 275 TV anime, theatrical films, and OVAs — visually reviewed, spatially de-clustered, and verified for Google Street View coverage.
+- **214 Curated Franchises & 3,218 Spots**: TV anime, theatrical films, OVAs, and curated Hong Kong ACG landmarks — visually reviewed, spatially de-clustered, and verified for Google Street View coverage.
+- **NEW — Hong Kong (Anime + ACG) Map Pool (92 Spots)**: Mixes **46 real anime/animation pilgrimage frames** (*Cardcaptor Sakura: The Movie*, *Full Metal Panic!*, *McDull*, *JoJo: Stardust Crusaders*, *Digimon Adventure*, *Fate/stay night: Heaven's Feel*, *Love Live! Nijigasaki*, and more) with **46 iconic Hong Kong anime & ACG culture landmarks** (Sino Centre, In's Point, Animate T.O.P, Gundam Base Kai Tak, HKCEC, Choi Hung Estate, etc.) using a dedicated Hong Kong distance scoring curve.
 - **All Japan (Easy) Mode**: A dedicated beginner-friendly mode featuring **50 iconic, widely recognizable anime** (1,127 Japan spots — *Your Name*, *Weathering With You*, *Bocchi the Rock!*, *Yuru Camp*, *Jujutsu Kaisen*, *Haikyu!!*, *Slam Dunk*, *Steins;Gate*, *Chainsaw Man*, *K-ON!*, and more) with franchise-balanced rounds.
-- **11 Playable Modes & Regions**: All Japan, All Japan (Easy), 8 Japan Regions (Tokyo, Greater Kanto, Kansai, Chubu, Hokkaido, Tohoku, Chugoku & Shikoku, Kyushu & Okinawa), plus **Outside Japan** (78 overseas pilgrimage spots across 20 franchises in Europe, Asia, North America & Australia).
-- **Solo & Zero-Login Multiplayer**: Create a room, copy the invite link, pick a nickname, and race friends live with automatic 10-second round transitions.
-- **Authentic GeoGuessr Scoring**: Per-region exponential distance curve with a golden **5,000** full score within 50 meters.
-- **4 Languages, Themes & BGM**: Auto-detects browser language (`简中`, `繁中`, `English`, `日本語`), with Warm Dark (default) and Light themes plus toggleable background music across desktop and mobile.
+- **12 Playable Modes & Regions**: All Japan, All Japan (Easy), 8 Japan Regions (Tokyo, Greater Kanto, Kansai, Chubu, Hokkaido, Tohoku, Chugoku & Shikoku, Kyushu & Okinawa), **Hong Kong (Anime + ACG)**, plus **Outside Japan**.
+- **Solo & Zero-Login Multiplayer**: Create a room, copy the invite link, pick a nickname, and race friends live — with automatic timeout auto-lock of your last placed pin, clear Round + Total score standings, and automatic 10-second round transitions.
+- **Fast Global Image Delivery**: All anime clue frames are served as lightweight WebP images cached globally via Cloudflare R2 + Edge Cache.
+- **Authentic GeoGuessr Scoring**: Per-region exponential distance curve with a golden **5,000** full score within 80 meters.
+- **4 Languages, Themes & BGM**: Auto-detects browser language (`简中`, `繁中`, `English`, `日本語`), with Warm Dark (default) and Light themes plus an in-game BGM volume slider across desktop and mobile.
+
+---
+
+## Notice on Map Display & Hosting Costs
+
+> [!NOTE]
+> BangumiGuessr is completely free to play with no ads, and I cover the hosting and API costs personally. Because Google Maps JavaScript API has a strict daily free-tier limit, **if the website receives heavy traffic on a given day, the guessing & answer map will automatically switch to MapTiler for the rest of the day** (360° Google Street View continues working normally). Sorry about that — Google Maps will automatically return once the daily quota resets!
 
 ---
 
@@ -33,7 +42,8 @@ BangumiGuessr would not exist without the anime pilgrimage community:
 
 - **[Anitabi (动画巡礼 / 神奇海螺)](https://www.anitabi.cn/)** — Anime pilgrimage location coordinates and scene references are sourced from Anitabi under the **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** license. Huge thanks to the Anitabi team and every community contributor who documents real-life anime locations worldwide!
 - **[Bangumi (番组计划)](https://bgm.tv/)** — Anime metadata and catalog information.
-- **Google Maps Platform** — Interactive Street View & map rendering.
+- **Google Maps Platform & MapTiler** — Interactive Street View, primary map rendering, and automatic MapTiler backup tiles.
+- **Cloudflare Workers & R2** — Edge hosting, Durable Objects multiplayer rooms, and global clue image caching.
 
 *(All anime screenshots belong to their respective copyright holders and are referenced strictly for non-commercial fan appreciation and pilgrimage exploration.)*
 
@@ -41,7 +51,7 @@ BangumiGuessr would not exist without the anime pilgrimage community:
 
 ## Buy Me a Coffee
 
-BangumiGuessr is completely free to play with no ads and no login. If you enjoy the game and would like to buy me a coffee to support ongoing spot curation and maintenance, you can click below *(also available via the **Sponsor** button on the website)*:
+BangumiGuessr is completely free to play with no ads and no login. If you enjoy the game and would like to buy me a coffee to support ongoing spot curation, API costs, and maintenance, you can click below *(also available via the **Sponsor** button on the website)*:
 
 <details>
 <summary>☕ WeChat Pay (微信支付)</summary>
