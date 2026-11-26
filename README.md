@@ -1,6 +1,6 @@
-# BangumiGuessr
+# BangumiGuessr · 番尋
 
-**Anime Pilgrimage GeoGuessr in Japan, Hong Kong & Worldwide · 动漫圣地巡礼猜地点**
+**Anime Pilgrimage GeoGuessr in Japan, Hong Kong & Worldwide · 番尋 - 動漫聖地巡禮猜地點**
 
 Explore real-life anime pilgrimage spots across Japan, Hong Kong, and iconic overseas locations in 360° Google Street View, match the floating anime scene reference, and drop your pin on the map — solo or live with friends, no account required.
 
@@ -25,7 +25,7 @@ Explore real-life anime pilgrimage spots across Japan, Hong Kong, and iconic ove
 - **Solo & Zero-Login Multiplayer**: Create a room, copy the invite link, pick a nickname, and race friends live — with automatic timeout auto-lock of your last placed pin, clear Round + Total score standings, and automatic 10-second round transitions.
 - **Fast Global Image Delivery**: All anime clue frames are served as lightweight WebP images cached globally via Cloudflare R2 + Edge Cache.
 - **Authentic GeoGuessr Scoring**: Per-region exponential distance curve with a golden **5,000** full score within 80 meters.
-- **4 Languages, Themes & BGM**: Auto-detects browser language (`简中`, `繁中`, `English`, `日本語`), with Warm Dark (default) and Light themes plus an in-game BGM volume slider across desktop and mobile.
+- **4 Languages, Themes & BGM**: Auto-detects browser language (`简中`, `繁中`, `English`, `日本語`), with Warm Dark (default) and Warm Light themes across both the homepage and multiplayer lobby, plus an in-game BGM volume slider across desktop and mobile.
 
 ---
 
